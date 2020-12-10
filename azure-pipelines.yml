@@ -28,4 +28,5 @@ stages:
     # Cloning iam-cloud-tools Repository & Create JKS
     - script: |
         ls -la
+        ls -la target
       displayName: Checking the VM
