@@ -24,13 +24,13 @@ stages:
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
         goals: 'package'
-  - job:
-    pool:
-      vmImage: 'ubuntu-latest'
+  # - job:
+  #   pool:
+  #     vmImage: 'ubuntu-latest'
     
-    steps:
-    # Cloning iam-cloud-tools Repository & Create JKS
-    - script: |
-        ls -la
-        ls -la target
-      displayName: Checking the VM
+  #   steps:
+  #   # Cloning iam-cloud-tools Repository & Create JKS
+  #   - script: |
+  #       ls -la
+  #       ls -la target
+  #     displayName: Checking the VM
