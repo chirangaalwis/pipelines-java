@@ -10,8 +10,8 @@ stages:
 - stage: Encrypt
   jobs:
   - job:
-    pool:
-      vmImage: 'ubuntu-latest'
+    # pool:
+    #   vmImage: 'ubuntu-latest'
 
     steps:
     - task: Maven@3
